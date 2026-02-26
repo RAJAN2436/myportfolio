@@ -47,6 +47,7 @@ header{
     font-family: 'Orbitron', sans-serif;
     font-size: 26px;
     letter-spacing: 2px;
+    border-radius: 50px;
 }
 
 .logo h1 span{
