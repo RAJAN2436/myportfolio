@@ -682,10 +682,10 @@ header{
 
 
 @media (min-width: 601px) and (max-width: 1024px){
-    .head{ flex-direction: column-reverse; gap: 14px; }
+    .head{ flex-direction: flex; gap: 5px; }
     .link-ul, .sco-ul{ display: none; }
-    .main{ margin: 70px 20px; }
-    .container{ flex-direction: column-reverse; text-align: center; }
+    .main{ margin: 20px 20px; }
+    .container{ flex-direction: center; text-align: center; }
 }
 
  
