@@ -846,6 +846,16 @@ header{
     .footer p{
         font-size:12px;
     }
+    img, video, canvas {
+    max-width: 100%;
+    height: auto;
+    }
+    @media screen and (max-width: 768px) {
+    .column {
+        width: 100%; /* Stacks columns vertically */
+    }
+    }
+    
 }
 
 
