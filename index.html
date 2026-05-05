@@ -297,6 +297,24 @@
                             </div>
                             <button type="submit" class="btn">Send Message</button>
                         </form>
+                        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+  emailjs.init("IjNlAnS8Ri8i_vXaa");
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm("service_vc6elze", "template_q5b5acw", this)
+    .then(function() {
+      alert("Message sent!");
+    }, function(error) {
+      alert("Failed: " + JSON.stringify(error));
+    });
+});
+</script>
                     </div>
                 </div>
             </div>
